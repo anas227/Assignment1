@@ -1,0 +1,108 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background: #a8e6a9;
+    color: #000000;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  /* NAVIGATION BAR */
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #7e1e1e;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Sections */
+  section {
+    margin: 40px 0;
+  }
+  
+  .project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Footer */
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background: #a8e6a9;
+    color: #000;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.navlink{
+  color: #ddd;
+}
+
+  
+
+  /* BUTTON */
+
+  .my-button {
+    background-color: #89db8c; 
+    color: rgb(43, 16, 16);
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .my-button:hover {
+    background-color: #1c231c;
+    color: #ffffff
+
+  }
+  
+.sides{
+margin-left: 20%;
+}
+  
+  
